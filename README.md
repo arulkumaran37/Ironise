@@ -1,4 +1,4 @@
-# Ironise — Gamified Fitness Platform (Monorepo)
+# Ironise
 
 Ironise is a gamified fitness platform where users track workouts, earn XP, unlock achievements, participate in challenges, and optionally leverage browser-based AI for exercise tracking and form insights.
 
@@ -16,13 +16,13 @@ Ironise is a gamified fitness platform where users track workouts, earn XP, unlo
 Built with Spring Boot 3.2.3, Spring Data JPA, Spring Security, and OpenAPI/Swagger.
 
 Package Namespace: `com.fitforge`
-- `auth`: Authentication & Security (Phase 1)
-- `user`: User Profiles & Settings (Phase 1)
-- `workout`: Workout Tracking & Logging (Phase 1)
-- `gamification`: XP, Levels & Achievements (Phase 2)
-- `social`: Social Connections & Feed (Phase 2)
-- `challenge`: Community Challenges (Phase 2)
-- `ai`: On-Device AI Telemetry (Phase 3)
+- `auth`: Authentication & Security 
+- `user`: User Profiles & Settings 
+- `workout`: Workout Tracking & Logging 
+- `gamification`: XP, Levels & Achievements
+- `social`: Social Connections & Feed 
+- `challenge`: Community Challenges 
+- `ai`: On-Device AI Telemetry 
 
 #### Running Backend:
 1. Environment file: Copy `.env.example` to `.env`
@@ -51,4 +51,4 @@ src/
 3. Access UI at `http://localhost:5173`
 
 ---
-Phase 0 Architecture Complete.
+Architecture Complete.
