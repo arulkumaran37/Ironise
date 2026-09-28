@@ -1,0 +1,29 @@
+# Maven output
+target/
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Environment files
+.env
+*.env
+
+# Logs
+*.log
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db

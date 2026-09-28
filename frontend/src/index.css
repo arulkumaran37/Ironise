@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #FAFAFA;
+    color: #18181B;
+    overflow-x: hidden;
+  }
+}
+
+@layer utilities {
+  .gold-ring-glow {
+    box-shadow: 0 0 50px rgba(245, 158, 11, 0.25);
+  }
+
+  .saiyan-aura-glow {
+    box-shadow: 0 0 60px rgba(245, 158, 11, 0.35), inset 0 0 30px rgba(239, 68, 68, 0.2);
+  }
+
+  .glass-panel {
+    background: rgba(20, 17, 15, 0.82);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(245, 158, 11, 0.25);
+  }
+}
+
+@keyframes subtlePulse {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.02);
+  }
+}
+
+.animate-subtle-pulse {
+  animation: subtlePulse 12s ease-in-out infinite;
+}
